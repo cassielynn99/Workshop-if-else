@@ -69,3 +69,9 @@ if (param1A === param1B || param2A === param2B) {
 } else {
     console.log(false);
 }
+
+//solution suggestion:
+// or ternary operator
+param1A === param1B || param2A === param2B
+  ? console.log(true)
+  : console.log(false);
